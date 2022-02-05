@@ -94,7 +94,6 @@ Buttons
   font-size: 0.8rem;
   background: transparent;
   border-radius: var(--mainBorderRadius);
-  display: inline-block;
 }
 
 .btn:hover {
@@ -247,7 +246,7 @@ Cocktails List
   display: grid;
   row-gap: 2rem;
   column-gap: 2rem;
-  /* align-items: start; */
+  align-items: start;
 }
 
 @media screen and (min-width: 576px) {
